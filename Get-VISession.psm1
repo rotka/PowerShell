@@ -81,3 +81,5 @@ Get-ViSession | measure
 
 # Disconnect sessions onliner
 # get-VISession | Where { $_.IdleMinutes -gt 30 } | disconnect-VISession
+######
+##
