@@ -4,7 +4,8 @@ Function create_vmware_guest {
 $Outfile = ($(get-date -Format yyyy-MM-dd_HH-mm-ss) + "-transcript-log.txt")
 $fileName = 'vms.csv'
 $deployedhost=1
-#$ErrorActionPreference = "silentlycontinue"
+
+$ErrorActionPreference = "silentlycontinue"
 
 ## Add ESXi
 Find-Module -Name VMware.PowerCLI

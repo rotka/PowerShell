@@ -3,7 +3,12 @@ Function create_vmware_cluster {
 # Error Log
 $Outfile = ($(get-date -Format yyyy-MM-dd_HH-mm-ss) + "-transcript-log.txt")
 
-$ErrorActionPreference = "silentlycontinue"
+#$ErrorActionPreference = "silentlycontinue"
+Write-Host "Veuillez renseigner le serveur auquel se connecter:" -ForegroundColor Cyan -NoNewline; $viserver = Read-Host " "
+
+Connect-VIServer $viserver
+Write-Host "Vous êtes connectés à $viserver" -ForegroundColor Green
+
 
 [uint16]$nbclustertodeploy = Read-Host -Prompt 'Veuillez entrer le nombre de cluster à déployer'
 $a=0
@@ -52,4 +57,14 @@ $a++
 $nbcluster=$nbcluster+2
 
 }until($a -eq $nbclustertodeploy)
+
+Write-Host "Voulez vous vous deconnectez du serveur: $viserver [y/n]" -Foregroundcolor Cyan -Nonewline; $vidisconnect = read-host " "
+
+if($vidisconnect -eq "y"){
+Disconnect-VIServer $viserver
+Write-Host "" -Foregroundcolor Green
+}else{
+
+}
+
 }
