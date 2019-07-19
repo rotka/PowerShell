@@ -5,7 +5,7 @@
  # Error Log
 $Outfile = ($(get-date -Format yyyy-MM-dd_HH-mm-ss) + "-transcript-log.txt")
 
-#$ErrorActionPreference = "silentlycontinue"
+$ErrorActionPreference = "silentlycontinue"
 
 # Informations:
 $gin = 1

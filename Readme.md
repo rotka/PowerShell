@@ -12,6 +12,8 @@ Ceci est un script multi fonctions utilisables sur les environnements:
 - ESXi
 - Windows Server Active Directory
 
+---
+
 - Import-Module –Name ".\add_esxi_to_vcsa.psm1"
 - Import-Module –Name ".\create_aduser.psm1"
 - Import-Module –Name ".\create_dns_record.psm1"
