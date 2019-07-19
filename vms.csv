@@ -1,0 +1,11 @@
+Server	EsxHost	Datastore	network	guestid	DiskGB	MemoryGB	ncpu	notes	DiskFormat
+test2	192.168.159.60	Datastore001	VM Network	centos7_64Guest	1	1	2	test notes	EagerZeroedThick
+test1	192.168.159.60	Datastore001	VM Network	windows7Server64Guest	1	2	2	test notes	EagerZeroedThick
+test3	192.168.159.60	Datastore001	VM Network	debian8_64Guest	1	1	2	test notes	EagerZeroedThick
+test4	192.168.159.60	Datastore001	VM Network	fedora64Guest	1	1	2	test notes	EagerZeroedThick
+test5	192.168.159.60	Datastore001	VM Network	fedora64Guest	1	1	2	test notes	EagerZeroedThick
+test6	192.168.159.60	Datastore001	VM Network	fedora64Guest	1	1	2	test notes	EagerZeroedThick
+test7	192.168.159.60	Datastore001	VM Network	fedora64Guest	1	1	2	test notes	EagerZeroedThick
+test8	192.168.159.60	Datastore001	VM Network	fedora64Guest	1	1	2	test notes	EagerZeroedThick
+test9	192.168.159.60	Datastore001	VM Network	fedora64Guest	1	1	2	test notes	EagerZeroedThick
+test10	192.168.159.60	Datastore001	VM Network	fedora64Guest	1	1	2	test notes	EagerZeroedThick
