@@ -1,7 +1,10 @@
 ﻿#######################################
 #       GOINDIN JULIEN - 4A SRC2      #
+#       MHARBI  RIM    - 4A SRC2      #
+#       BARBOTIN VICTOR- 4A SRC2      #
+#     OUENNOUGHI TARYL - 4A SRC2      #
 #           Année 2018-2019           #
-#                                     #
+#               ESGI                  #
 #######################################
 
 # log file
